@@ -1,0 +1,21 @@
+#nombre {
+    margin: 0px;
+    margin-top: 25px;
+    font-weight: 700;
+  }
+  
+  .caracteristicas {
+    margin: 0px;
+    margin-top: 10px;
+  }
+  
+  .caracteristicas > p {
+    padding: 5px;
+  }
+  
+  #puesto {
+      color: white;
+      background-color: rgb(77, 228, 228);
+  }
+  
+  

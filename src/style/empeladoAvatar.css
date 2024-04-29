@@ -1,0 +1,11 @@
+#contenedorImg {
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 100%;
+    max-width: 80px;
+    max-height: 80px;
+  }
+  
+  #contenedorImg > img {
+    border-radius: 100%;
+  }

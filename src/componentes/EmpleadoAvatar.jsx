@@ -1,12 +1,12 @@
-import React from 'react';
-//import "../style/empleadoAvatar.css"
+import React from "react";
+import "../style/empleadoRow.css"
 
-const EmpleadoAvatar = () => {
-    return (
-        <div>
-            
-        </div>
-    );
+const EmpleadoAvatar = ({objetoEmpleado}) => {
+  return (
+    <div id="contenedorImg">
+      <img src={objetoEmpleado.pic} alt="avatar" className="img-fluid" />
+    </div>
+  );
 };
 
 export default EmpleadoAvatar;
